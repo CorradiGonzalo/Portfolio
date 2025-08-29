@@ -11,7 +11,7 @@
     "url": "git+https://github.com/CorradiGonzalo/Portfolio.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "GonzaloCorradi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CorradiGonzalo/Portfolio/issues"
@@ -20,5 +20,6 @@
   "dependencies": {
     "express": "^5.1.0",
     "express-handlebars": "^8.0.3"
-  }
+  },
+  "devDependencies": {}
 }
