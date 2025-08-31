@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* HEADER */
+
+header {
+    background: #111;
+    padding: 1rem 2rem;
+}
+
+header .nav-links{
+    display: flex;
+    justify-items: center;
+    list-style: none;
+}
+
+header .nav-links li {
+    margin: 0 1rem;
+}
+
+header -nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header .nav-links a:hover {
+    color: #00abd5;
+}
+
+/* SOBRE MI */
+.about.me{
+    padding: 3rem 2 rem;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-me h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-me .highlight {
+    color: #00abd5;
+}
+
+.about-me p{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* PROYECYOS */
+
+.projects {
+    background: #f0f0f0;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* CONTACTO */
+
+.contact {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact a {
+    color: #00abd5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    header .nav-links {
+        flex-direction: column;
+    }
+
+    header .nav-links li {
+        margin: 0.5rem 0;
+    }
+
+    .about-me h1 {
+        font-size: 2rem;
+    }
+
+    .projects h2,
+    .contact h2 {
+        font-size: 1.6 rem;
+    }
+}
